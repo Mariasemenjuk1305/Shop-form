@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="shop.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="balance">
+            <span class="txt">Баланс</span>
+            <input type="text" class="txt_input" id="many" value="2000">
+            <span class="txt">Пиво</span>
+            <input type="text" class="txt_input" id="beer" value="50">
+            <span class="txt">Вино</span>
+            <input type="text" class="txt_input" id="vine" value="50">
+            <span class="txt">Пепсі</span>
+            <input type="text" class="txt_input" id="pepsi" value="50">
+        </div>
+        <div class="add">
+            <span class="txt">Кількість</span>
+            <input type="text" class="txt_input" id="amounte">
+            <div class="radio">
+                <input type="radio" name="drink" id="radio_beer"> Пиво
+                <input type="radio" name="drink" id="radio_vine"> Вино
+                <input type="radio" name="drink" id="radio_pepsi"> Персі
+            </div>
+            <input type="button" class="butt" id="add_drink" value="Додати">
+            <div class="input_product" id="product"></div>
+            <input type="button" class="butt" id="buy" value="Купити">
+        </div>
+        <div class="rez" id="myShoping"></div>
+    </div>
+
+
+    <script src="shop.js"></script>
+</body>
+
+</html>
